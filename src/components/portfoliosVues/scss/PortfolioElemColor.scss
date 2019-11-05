@@ -1,0 +1,99 @@
+// theme class
+[themeColor=White] {
+    --color-font: black;
+    --color-bg  : white;
+    --color-link: #30b7e8;
+    --color-gallery-title: #30b7e8;
+    --html-bg : #8dca35;
+    --html--color: white;
+    --css-bg: #00bfdd;
+    --css-color : white;
+    --js-bg : #ff702a;
+    --js-color : white;
+    --ui-btn-bg : #30b7e8;
+    --ui-btn-color : white;
+    --table-th-bg: rgba(77,128,153,0.05);
+    --table-th-color: #94979c;
+}
+[themeColor=Black] {
+    --color-font: #ffffff;
+    --color-bg  : rgb(40,40,40);
+    --color-link: #30b7e8;
+    --color-gallery-title: #30b7e8;
+    --html-bg : #8dca35;
+    --html--color: white;
+    --css-bg: #00bfdd;
+    --css-color : white;
+    --js-bg : #ff702a;
+    --js-color : white;
+    --ui-btn-bg : #30b7e8;
+    --ui-btn-color : white;
+    --table-th-bg: rgba(128, 136, 139, 0.5);
+    --table-th-color: white;
+
+}
+[themeColor=Blue] {
+    --color-font: #ffffff;
+    --color-bg  : #30b7e8;
+    --color-link: rgb(155, 34, 34);
+    --color-gallery-title: white;
+    --html-bg : #8dca35;
+    --html--color: white;
+    --css-bg: white;
+    --css-color : #00bfdd;
+    --js-bg : #ff702a;
+    --js-color : white;
+    --ui-btn-bg : white;
+    --ui-btn-color : #30b7e8;
+    --table-th-bg: rgba(128, 136, 139, 0.5);
+    --table-th-color: white;
+}
+
+#work1{
+    background-color: var(--color-bg);
+    color:var(--color-font);
+}
+
+.gallery-title::before {
+    color: var(--color-gallery-title);
+}
+
+#modal-out{
+    background-color: var(--color-bg);
+}
+
+
+/*portfolio  head */
+
+/* table*/
+a {
+    color: var(--color-link);
+}
+
+/* categ */
+.categ.html {
+    background: var(--html-bg);
+    color: var(--html--color);
+}
+
+.categ.css {
+    background: var(--css-bg);
+    color: var(--css-color);
+}
+
+.categ.js {
+    background: var(--js-bg);
+    color: var(--js-color);
+}
+
+/*ui button */
+
+.ui-button, .ui-button a:link, .ui-button a:visited{
+    background: var(--ui-btn-bg);
+    color: var(--ui-btn-color);
+}
+
+table thead th {
+    background-color: var(--table-th-bg);
+    color: var(--table-th-color);
+}

@@ -1,0 +1,54 @@
+// theme class
+[themeColor=default] {
+  --color-font: #ffffff;
+  --color-bg-about: #1895c5;
+  --color-bg-skill: #1ca8dd;
+  --color-bg-img: #28bdf3c9;
+}
+[themeColor=mint] {
+  --color-font: #ffffff;
+  --color-bg-about: #4d9c75;
+  --color-bg-skill: #68ce9b;
+  --color-bg-img: #28bdf3c9;
+}
+[themeColor=simple_cookie] {
+  --color-font: black;
+  --color-bg-about: #c0c0c0;
+  --color-bg-skill: #d4d4d4;
+  --color-bg-img: #28bdf3c9;
+}
+
+.contentSize {
+  width: 379px;
+}
+.aboutMeBody {
+  display: flex;
+  height: 650px;
+}
+.aboutMe_about {
+  // #1895c5
+  background-color: var(--color-bg-about);
+  text-align: right;
+}
+.aboutMe_skills {
+  background: var(--color-bg-skill);
+  text-align: left;
+}
+.aboutMe_subTitle {
+  display: block;
+  padding-bottom: .25em;
+  position: relative;
+}
+.aboutMe_images {
+  background: var(--color-bg-img);
+  text-align: left;
+  .aboutContainer {
+    display: none;
+  }
+  .aboutMe_title {
+    display: none;
+  }
+  .aboutMe_image {
+    height: 650px;
+  }
+}
