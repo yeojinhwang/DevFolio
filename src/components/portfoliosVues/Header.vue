@@ -330,12 +330,12 @@ export default {
             opacity: 'opacity1',
             dialog: false,
             mini: false,
-            select: { theme: 'Dolphin', img: 'https://firebasestorage.googleapis.com/v0/b/teamportfolio-d978f.appspot.com/o/banner%2Fexample4.jpg?alt=media&token=c3ba9a94-7889-40eb-b68c-2fda0d6247ac', opacity: 'opacity1' },
+            select: { theme: 'Galaxy', img: 'https://firebasestorage.googleapis.com/v0/b/devfolio-5745c.appspot.com/o/banners%2Fgalaxy.jpeg?alt=media&token=ebb0debd-51f0-4ef2-9d71-b22de8df2ade', opacity: 'opacity1' },
             fileName: null,
             items: [
-                { theme: 'Dolphin' , img: 'https://firebasestorage.googleapis.com/v0/b/teamportfolio-d978f.appspot.com/o/banner%2Fexample4.jpg?alt=media&token=c3ba9a94-7889-40eb-b68c-2fda0d6247ac', opacity: 'opacity1' },
-                { theme: 'Mountain', img: 'https://firebasestorage.googleapis.com/v0/b/teamportfolio-d978f.appspot.com/o/banner%2Fexample5.jpg?alt=media&token=4d683a8c-6543-4116-93eb-fa290493932f', opacity: 'opacity1' },
-                { theme: 'Horizon', img: 'https://firebasestorage.googleapis.com/v0/b/teamportfolio-d978f.appspot.com/o/banner%2Fexample6.jpg?alt=media&token=b4bed72d-2c2f-4fdd-a9f4-14a1cc17d2e3', opacity: 'opacity1' }
+                { theme: 'Galaxy' , img: 'https://firebasestorage.googleapis.com/v0/b/devfolio-5745c.appspot.com/o/banners%2Fgalaxy.jpeg?alt=media&token=ebb0debd-51f0-4ef2-9d71-b22de8df2ade', opacity: 'opacity1' },
+                { theme: 'Mountain', img: 'https://firebasestorage.googleapis.com/v0/b/devfolio-5745c.appspot.com/o/banners%2Fmountain.jpg?alt=media&token=96628efe-1d85-46df-8eee-9de5e209ed78', opacity: 'opacity1' },
+                { theme: 'Sky', img: 'https://firebasestorage.googleapis.com/v0/b/devfolio-5745c.appspot.com/o/banners%2Fsky.jpg?alt=media&token=dc77133e-0a94-465b-b668-cb6c7e043619', opacity: 'opacity1' }
             ],
             layout: null,
             choice: 'title',
@@ -499,22 +499,6 @@ export default {
                 document.getElementById('portSubtitle').style.color = 'rgb(' + __this.sRed + ',' + __this.sGreen + ',' + __this.sBlue + ')';
             })
         },
-        // getBanner: function() {
-        //     var storage = firebase.storage();
-        //     var storageRef = storage.ref();
-        //     storageRef.child('users/' + this.userData.uid + '/' + this.select.theme).getDownloadURL().then(function(url) {
-        //         var xhr = new XMLHttpRequest();
-        //         xhr.responseType = 'blob';
-        //         xhr.onload = function(event) {
-        //             var blob = xhr.response;
-        //         }
-        //         xhr.open('GET', url)
-        //         xhr.send();
-        //         this.select.img = url;
-        //     }).catch(function(error) {
-        //         console.log(error);
-        //     })
-        // },
         userImage: function (file) {
             let loadFile = file.target.files || file.dataTransfer.files
 

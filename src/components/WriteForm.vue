@@ -553,7 +553,7 @@ export default {
       let _this = this
       firebase.auth().onAuthStateChanged(async function(user) {
         // default banner
-        let banner = {theme: 'Horizon', img: 'https://firebasestorage.googleapis.com/v0/b/teamportfolio-d978f.appspot.com/o/banner%2Fexample6.jpg?alt=media&token=b4bed72d-2c2f-4fdd-a9f4-14a1cc17d2e3', opacity: 'opacity1', layout: 'template2'}
+        let banner = {theme: 'Galaxy', img: 'https://firebasestorage.googleapis.com/v0/b/devfolio-5745c.appspot.com/o/banners%2Fgalaxy.jpeg?alt=media&token=ebb0debd-51f0-4ef2-9d71-b22de8df2ade', opacity: 'opacity1', layout: 'template2'}
         // default title
         let title = {content: _this.pageTitle, color: {red: 255, blue: 255, green: 255}, size: 6, animation: 'none'}
         // default subtitle

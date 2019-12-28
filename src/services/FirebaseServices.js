@@ -15,15 +15,16 @@ const MYPORT = 'portfolios'
 const USERDATA = 'userData'
 
 // Firebase SDK snippet
-const firebaseConfig = {
-    apiKey: "AIzaSyAz0RGXUXrOUfioiOTeLDJbWHJmVAGGIRE",
-    authDomain: "teamportfolio-d978f.firebaseapp.com",
-    databaseURL: "https://teamportfolio-d978f.firebaseio.com",
-    projectId: "teamportfolio-d978f",
-    storageBucket: "teamportfolio-d978f.appspot.com",
-    messagingSenderId: "44702362763",
-    appId: "1:44702362763:web:143c6516b7091e25"
-}
+var firebaseConfig = {
+    apiKey: "AIzaSyBRFyeE6vVC5EJ36fFxgJvtmkYfs51UfoA",
+    authDomain: "devfolio-5745c.firebaseapp.com",
+    databaseURL: "https://devfolio-5745c.firebaseio.com",
+    projectId: "devfolio-5745c",
+    storageBucket: "devfolio-5745c.appspot.com",
+    messagingSenderId: "765853346254",
+    appId: "1:765853346254:web:586dbdb1e4f60fabb0a39f",
+    measurementId: "G-Y1D1RGL6FS"
+};
 
 firebase.initializeApp(firebaseConfig)
 
