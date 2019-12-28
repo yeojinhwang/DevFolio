@@ -16,7 +16,7 @@
           </v-btn>
         </div>
 
-        <div id="loginProvider">
+        <!--<div id="loginProvider">
           <v-btn
             class="loginBtn"
             depressed small style="color: #3b5998;"
@@ -27,7 +27,7 @@
             ">fab fa-facebook-square</v-icon>
             Facebook으로 로그인
           </v-btn>   
-        </div>
+        </div>-->
       </v-flex>
 
       <v-divider></v-divider>
